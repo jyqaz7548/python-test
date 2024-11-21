@@ -1,15 +1,16 @@
-a, b = map(int, input().split())
-c = input()
-c = int(c)
-m = b+c
-if (m >= 60) :
-    a += m/60
-    if a >= 24 : a = 0
+import sys
+s = input()
+s = int(s)
+i = 0
+while i<s :
+    i+=1
+    a, b = map(int, input().split())
+    su = a+b
+    print("Case #",end="")
+    print(i,end="")
+    print(":%d"%a,end="")
+    print("+%d ="%b,end = "")
+    print("%d"%su)
     
-    m = m%60
-    print("%d "%a, end="")
-    print("%d"%m)
 
-else :
-    print("%d "%a, end="")
-    print("%d"%m)
+sys.exit(1)

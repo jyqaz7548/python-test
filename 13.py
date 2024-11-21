@@ -1,3 +1,5 @@
+
+
 import sys
 s = input()
 s = int(s)
@@ -8,9 +10,6 @@ while i<s :
     su = a+b
     print("Case #",end="")
     print(i,end="")
-    print(":%d"%a,end="")
-    print("+%d ="%b,end = "")
-    print("%d"%su)
-    
+    print(":%d"%su)
 
 sys.exit(1)

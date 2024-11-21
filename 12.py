@@ -1,13 +1,6 @@
-import sys
-s = input()
-s = int(s)
-i = 0
-while i<s :
-    i+=1
-    a, b = map(int, input().split())
-    su = a+b
-    print("Case #",end="")
-    print(i,end="")
-    print(":%d"%su)
 
-sys.exit(1)
+r1 = input()
+s = input()
+r1 = int(r1)
+s = int(s)
+print(s*2 - r1)
